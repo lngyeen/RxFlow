@@ -46,14 +46,14 @@ class TrendingFlow: Flow {
         viewController.title = "Trending"
         self.rootViewController.pushViewController(viewController, animated: true)
 
-        let trendingFlow = TrendingMovieFlow(withServices: self.services)
+        let trendingMovieFlow = TrendingMovieFlow(withServices: self.services)
         let castListFlow = CastListFlow(withServices: self.services)
 
-        Flows.use(trendingFlow, castListFlow, when: .ready) { trendingRoot, castListRoot in
+        Flows.use(trendingMovieFlow, castListFlow, when: .ready) { trendingRoot, castListRoot in
             viewController.nestedViewControllers = [trendingRoot, castListRoot]
         }
 
-        return .multiple(flowContributors: [.contribute(withNextPresentable: trendingFlow,
+        return .multiple(flowContributors: [.contribute(withNextPresentable: trendingMovieFlow,
                                                         withNextStepper: OneStepper(withSingleStep: DemoStep.moviesAreRequired),
                                                         allowStepWhenDismissed: true),
                                             .contribute(withNextPresentable: castListFlow,

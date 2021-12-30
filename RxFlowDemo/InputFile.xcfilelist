@@ -1,0 +1,6 @@
+$(SRCROOT)/Carthage/Build/RxBlocking.xcframework
+$(SRCROOT)/Carthage/Build/RxTest.xcframework
+$(SRCROOT)/Carthage/Build/RxSwift.xcframework
+$(SRCROOT)/Carthage/Build/RxCocoa.xcframework
+$(SRCROOT)/Carthage/Build/RxRelay.xcframework
+$(SRCROOT)/Carthage/Build/Reusable.xcframework

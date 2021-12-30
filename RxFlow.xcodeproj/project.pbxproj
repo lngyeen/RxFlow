@@ -30,18 +30,11 @@
 		74370EB023C65E20006CB8A6 /* FlowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74370EAF23C65E20006CB8A6 /* FlowsTests.swift */; };
 		74855A472470544500334B8F /* DeprecatedFlows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74855A462470544500334B8F /* DeprecatedFlows.swift */; };
 		74855A492470552B00334B8F /* DeprecatedFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74855A482470552B00334B8F /* DeprecatedFlowCoordinator.swift */; };
-		749B02E822066518001BEBBB /* RxBlocking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 749B02E722066518001BEBBB /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		749B02EC22066538001BEBBB /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 749B02EA22066538001BEBBB /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		749B02EF22066618001BEBBB /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 749B02ED22066618001BEBBB /* RxCocoa.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		749B02F022066618001BEBBB /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 749B02EE22066618001BEBBB /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		749B02F12206665A001BEBBB /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749B02ED22066618001BEBBB /* RxCocoa.framework */; };
-		749B02F22206665A001BEBBB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749B02EE22066618001BEBBB /* RxSwift.framework */; };
-		749B02F322066675001BEBBB /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749B02ED22066618001BEBBB /* RxCocoa.framework */; platformFilter = ios; };
-		749B02F422066675001BEBBB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749B02EE22066618001BEBBB /* RxSwift.framework */; };
 		749B02F82206852D001BEBBB /* Flow+PresentableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749B02F72206852D001BEBBB /* Flow+PresentableTests.swift */; };
 		749B02FC220688EC001BEBBB /* FlowCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749B02FB220688EC001BEBBB /* FlowCoordinatorTests.swift */; };
-		74C6AD32227BAE6900B16A95 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C6AD31227BAE6900B16A95 /* RxRelay.framework */; };
-		74C6AD33227BAE7800B16A95 /* RxRelay.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74C6AD31227BAE6900B16A95 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F89A8C94277D5EC200C521B7 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89A8C93277D5EC200C521B7 /* RxCocoa.xcframework */; };
+		F89A8C96277D5EC200C521B7 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89A8C95277D5EC200C521B7 /* RxRelay.xcframework */; };
+		F89A8C98277D5EC200C521B7 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89A8C97277D5EC200C521B7 /* RxSwift.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,11 +54,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				74C6AD33227BAE7800B16A95 /* RxRelay.framework in CopyFiles */,
-				749B02EF22066618001BEBBB /* RxCocoa.framework in CopyFiles */,
-				749B02F022066618001BEBBB /* RxSwift.framework in CopyFiles */,
-				749B02EC22066538001BEBBB /* RxTest.framework in CopyFiles */,
-				749B02E822066518001BEBBB /* RxBlocking.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,14 +87,11 @@
 		74370EAF23C65E20006CB8A6 /* FlowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowsTests.swift; sourceTree = "<group>"; };
 		74855A462470544500334B8F /* DeprecatedFlows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeprecatedFlows.swift; sourceTree = "<group>"; };
 		74855A482470552B00334B8F /* DeprecatedFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeprecatedFlowCoordinator.swift; sourceTree = "<group>"; };
-		749B02E722066518001BEBBB /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
-		749B02E922066537001BEBBB /* Reusable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reusable.framework; path = Carthage/Build/iOS/Reusable.framework; sourceTree = "<group>"; };
-		749B02EA22066538001BEBBB /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
-		749B02ED22066618001BEBBB /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		749B02EE22066618001BEBBB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		749B02F72206852D001BEBBB /* Flow+PresentableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flow+PresentableTests.swift"; sourceTree = "<group>"; };
 		749B02FB220688EC001BEBBB /* FlowCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinatorTests.swift; sourceTree = "<group>"; };
-		74C6AD31227BAE6900B16A95 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		F89A8C93277D5EC200C521B7 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = RxFlowDemo/Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		F89A8C95277D5EC200C521B7 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = RxFlowDemo/Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		F89A8C97277D5EC200C521B7 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = RxFlowDemo/Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				749B02F322066675001BEBBB /* RxCocoa.framework in Frameworks */,
-				749B02F422066675001BEBBB /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,9 +106,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C6AD32227BAE6900B16A95 /* RxRelay.framework in Frameworks */,
-				749B02F12206665A001BEBBB /* RxCocoa.framework in Frameworks */,
-				749B02F22206665A001BEBBB /* RxSwift.framework in Frameworks */,
+				F89A8C94277D5EC200C521B7 /* RxCocoa.xcframework in Frameworks */,
+				F89A8C96277D5EC200C521B7 /* RxRelay.xcframework in Frameworks */,
+				F89A8C98277D5EC200C521B7 /* RxSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,12 +127,9 @@
 		1A8FBDDE1FF8331900389464 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				74C6AD31227BAE6900B16A95 /* RxRelay.framework */,
-				749B02ED22066618001BEBBB /* RxCocoa.framework */,
-				749B02EE22066618001BEBBB /* RxSwift.framework */,
-				749B02E922066537001BEBBB /* Reusable.framework */,
-				749B02EA22066538001BEBBB /* RxTest.framework */,
-				749B02E722066518001BEBBB /* RxBlocking.framework */,
+				F89A8C93277D5EC200C521B7 /* RxCocoa.xcframework */,
+				F89A8C95277D5EC200C521B7 /* RxRelay.xcframework */,
+				F89A8C97277D5EC200C521B7 /* RxSwift.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
